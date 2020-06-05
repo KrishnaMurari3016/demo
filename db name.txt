@@ -1,0 +1,45 @@
+
+Db name
+-------------------------
+pcbb_workflow
+pcbb_datalake
+--------------------------
+Loging credentils: 
+abhinav@vinnovationtech.com /successjanus
+
+---------------------------
+Authentication-
+http://localhost:8080/client/authenticate
+
+{
+"username":"javainuse",
+"password":"password"
+}
+
+
+http://localhost:8080/client/getAll     ----------get
+http://localhost:8080/client/getById/1  ------------get 
+
+http://localhost:8080/client-application-file/findByClientId/1 ------------- get
+
+post method
+
+http://localhost:8080/files/findbyclientcount
+{
+"client_id": 1,
+      "fromDate": "2020-01-01",
+      "toDate":"2020-06-06"
+
+}
+
+------------------------
+action Urls
+
+aid -1  getAllClient
+aid -2  getClientById                      client/getById/1
+aid -3  findbyclientcount                  files/findbyclientcount   
+
+
+Roles
+
+http://localhost:8080/roles/save
